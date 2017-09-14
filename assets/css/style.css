@@ -1,0 +1,48 @@
+body {
+ 	/*background-color: salmon;*/
+ 	background: url("https://epicmafia.com/uploads/lobbybg/197.png");
+}
+
+
+h1 {
+	font-size: 36px;
+	padding: 10px;
+	text-align: center;
+	border: 3px solid;
+	width: 50%;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+}
+
+h3 {
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+.gem-image {
+	height: 200px;
+	padding: 20px;
+
+}
+
+.rules {
+	margin: 20px;
+	line-height: 1.5em;
+	border: 3px solid;
+	padding: 10px;
+	background-color: rgba(229,182,200, 0.75);
+}
+
+.win-number {
+	font-size: 30px;
+	margin: 20px;
+}
+
+.points {
+	margin: 20px;
+}
