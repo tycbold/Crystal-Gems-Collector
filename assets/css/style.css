@@ -1,6 +1,5 @@
 body {
- 	/*background-color: salmon;*/
- 	background: url("https://epicmafia.com/uploads/lobbybg/197.png");
+ 	background: url("../images/crystal_background.png");
 }
 
 
@@ -9,8 +8,9 @@ h1 {
 	padding: 10px;
 	text-align: center;
 	border: 3px solid;
-	width: 50%;
+	width: 40%;
 	margin: auto;
+	font-family: 'Chewy', cursive;
 }
 
 h2 {
@@ -36,13 +36,21 @@ h3 {
 	border: 3px solid;
 	padding: 10px;
 	background-color: rgba(229,182,200, 0.75);
+	font-family: 'Raleway', sans-serif;
 }
 
 .win-number {
 	font-size: 30px;
 	margin: 20px;
+	font-family: 'Chewy', cursive;
 }
 
 .points {
 	margin: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#success {
+	font-size: 28px;
+	font-family: 'Chewy', cursive;
 }

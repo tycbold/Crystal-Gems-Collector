@@ -6,17 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 
 	<header>
 	<h1>Crystal (Gems) Game</h1>
-</header>
+	</header>
 
 	<div class="rules">
 		<h2>RULES</h2><br>
 
-		<p>You will be given a random number at the sart of the game.</p><br>
+		<p>You will be given a random number at the start of the game.</p><br>
 		<p>There are four Crystal Gems below. By clicking on one of them, you will add a specific amount of points to your total score.</p><br>
 		<p>You will win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p><br>
 		<p>The value of each Crystal Gem is hidden from you until you click on it.</p><br>
@@ -26,14 +30,26 @@
 
 	<div class="win-number"></div>
 	<div class="points">
-	<h3>Total Points: <span id="counter"></span></h3>
+	<h3>Your Points: <span id="counter"></span></h3>
+	<br>
 	<h3>Wins: <span id="wins"></span></h3>
+	<br>
 	<h3>Losses: <span id="losses"></span></h3>
+	<br>
 	<div id="success"></div>
 	</div>
 
 	<!-- Gems images -->
 	<div class="gems"></div>
+
+	<!-- Audio fles -->
+	<audio id="audio" controls style="display:none">
+  <source src="steven-win.wav" type="audio/mpeg">
+</audio>
+
+<audio id="audio" controls style="display:none">
+  <source src="steven-lose.wav" type="audio/mpeg">
+</audio>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
