@@ -9,4 +9,4 @@ This game is (evidently) inspired by one of the best modern animated shows, Stev
 
 - **Goal**: Match your score to the goal number *without going over.* If you go over, you lose, just like The Price is Right.
 
-A working version of this game can be found here. 
+A working version of this game can be found [here](https://tycbold.github.io/Crystal-Gems-Collector/). 
