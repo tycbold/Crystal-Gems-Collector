@@ -1,6 +1,6 @@
 # Crystal (Gems) Collector
 
-This game is (evedently) inspired by one of the best modern animated shows, Steven Universe. 
+This game is (evidently) inspired by one of the best modern animated shows, Steven Universe. 
 
 ### Rules
 
